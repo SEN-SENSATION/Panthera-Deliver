@@ -1,0 +1,41 @@
+.coming-soon {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__modal {
+    width: 60rem;
+    height: 26rem;
+    padding: 2rem;
+    border-radius: 1.1rem;
+    background-color: var(--gray-light-2);
+    margin: 3rem;
+  }
+
+  &__title {
+    font-size: 2.3rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    h3 {
+      font-weight: 500;
+    }
+
+    .bx {
+      color: var(--primary-color);
+      font-size: 3.2rem;
+    }
+  }
+
+  &__content {
+    font-size: 1.5rem;
+
+    h3 {
+      font-weight: 400;
+    }
+  }
+}
